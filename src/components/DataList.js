@@ -9,7 +9,7 @@ const MembersDataList = ({ name, surname, isActive }) => {
     <div className="table">
       <h1>
         Welcome,
-        {name + " " + surname.charAt(0).toUpperCase() + surname.slice(1)}{" "}
+        {" " + name + " " + surname.charAt(0).toUpperCase() + surname.slice(1)}
       </h1>
       <button className="ActivateButton">
         {isActive ? "Deactivate" : "Activate"}
