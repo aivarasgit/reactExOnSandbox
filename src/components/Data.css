@@ -1,0 +1,27 @@
+.table {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5px;
+  align-content: center;
+  border: 1px solid grey dotted;
+}
+
+.table > span {
+  background: #222244;
+  color: #fff;
+}
+
+h1 {
+  color: grey;
+}
+
+.MembersDataList {
+  text-decoration: underline;
+  padding-left: 4px;
+}
+
+.MembersDataList > p {
+  padding: 10px;
+  background-color: greenyellow;
+  color: red !important;
+}
