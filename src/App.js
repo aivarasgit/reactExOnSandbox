@@ -17,7 +17,7 @@ export default function App() {
           value={values.name}
           onChange={valuesChanged}
         />
-        <label for="inputID">Input</label>
+        <label for="inputID">Input:</label>
         <input
           name="input"
           type="text"
