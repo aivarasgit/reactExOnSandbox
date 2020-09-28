@@ -3,7 +3,7 @@ import "./styles.css";
 import MembersDataList from "./components/DataList";
 import EventRegForm from "./components/EventRegForm";
 
-export default function App() {
+const App = () => {
   const [name, input] = "";
   const [values, valuesChanged] = EventRegForm(name, input);
   return (
@@ -36,4 +36,6 @@ export default function App() {
       </form>
     </div>
   );
-}
+};
+
+export default App;
