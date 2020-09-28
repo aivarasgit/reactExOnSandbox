@@ -9,19 +9,34 @@
 .table > span {
   background: #222244;
   color: #fff;
+  padding: 20px;
 }
 
-h1 {
+.table h1 {
   color: grey;
+  border-bottom: 1px dotted #fff;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: 300;
 }
 
 .MembersDataList {
-  text-decoration: underline;
   padding-left: 4px;
 }
 
 .MembersDataList > p {
   padding: 10px;
-  background-color: greenyellow;
-  color: red !important;
+  background-color: #d7e8ef;
+  color: #e37933;
+}
+
+.MembersDataList > p::first-line {
+  font-size: 110%;
+  color: #14675e;
+  text-decoration: underline;
+}
+
+.MembersDataList > p::first-letter {
+  color: #222244;
+  text-decoration: underline;
 }

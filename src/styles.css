@@ -6,3 +6,28 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.RegistrationForm {
+  background: #222244;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  max-width: 350px;
+  margin: 55px auto;
+}
+
+.RegistrationForm > label {
+  margin: 5px;
+  text-align: left;
+}
+
+.RegistrationForm > input {
+  margin: 5px auto;
+  width: 340px;
+}
+
+.RegistrationForm label,
+input {
+  display: flex;
+  flex-flow: column wrap;
+}
