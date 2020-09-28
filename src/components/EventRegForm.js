@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const EventRegForm = (...formValues) => {
   const [values, setValues] = useState(formValues);
+
   return [
     values,
     (e) => {

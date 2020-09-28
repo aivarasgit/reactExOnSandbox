@@ -32,3 +32,8 @@ input {
   display: flex;
   flex-flow: column wrap;
 }
+
+.RegistrationForm textArea {
+  width: 340px;
+  min-height: 200px;
+}
